@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Psm Core should expose setter methods 1`] = `
+Object {
+  "brand": "Prism",
+  "companyName": "Prism Test Co",
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "appLoad",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "telemetry",
+  "ids": Object {
+    "kruxid": "abc123",
+  },
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "psmEnvironment": "TEST",
+      "subBrand": "Prism-Test",
+    },
+    "name": "Prism",
+    "version": "x.x.x",
+  },
+  "platform": "web",
+  "productName": "Unit Tests",
+  "subBrand": "Prism Test",
+  "ukid": "00000000-0000-0000-0000-000000000000",
+}
+`;
+
+exports[`Psm Core should expose trackAppLoad method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "appLoad",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "telemetry",
+}
+`;
+
+exports[`Psm Core should expose trackConsentGranted method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "ccpaShareData",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "privacy",
+}
+`;
+
+exports[`Psm Core should expose trackConsentWithdrawn method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "ccpaShareData",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "privacy",
+}
+`;
+
+exports[`Psm Core should expose trackHeartbeat method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "heartbeat",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "telemetry",
+}
+`;
+
+exports[`Psm Core should expose trackIdentityRegistration method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "eventName",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "identity",
+}
+`;
+
+exports[`Psm Core should expose trackPubSub method 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "eventName",
+  "eventProperties": Object {
+    "eventTrigger": "pubsub",
+  },
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "telemetry",
+}
+`;
+
+exports[`Psm Core should support adding custom key-value pairs to the core payload 1`] = `
+Object {
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "appLoad",
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "telemetry",
+  "foo": "bar",
+}
+`;

@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`logger should debug 1`] = `
+Object {
+  "brand": "Prism",
+  "device": {"type":""},
+  "eventName": "debug",
+  "eventProperties": Object {
+    "featureFlagValues": Array [
+      Object {
+        "enabled": true,
+        "flagId": "consent-update",
+        "flagName": "consent-update",
+      },
+      Object {
+        "enabled": false,
+        "flagId": "inbrain",
+        "flagName": "inbrain",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "heartbeat-event",
+        "flagName": "heartbeat-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "pubsub-event",
+        "flagName": "pubsub-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "outside-us-location-check",
+        "flagName": "outside-us-location-check",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-onstart",
+        "flagName": "identity-onstart",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-oncomplete",
+        "flagName": "identity-oncomplete",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "idresolve",
+        "flagName": "idresolve",
+      },
+    ],
+    "logMessage": "[object Object]",
+    "method": "testMethod",
+    "stackTrace": "heres our stack",
+  },
+  "eventTimestamp": "2024-01-01T09:09:09.000Z",
+  "eventType": "log",
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "cookieExpires": 31536000000,
+      "cookieSameSite": "Lax",
+      "cookieSecure": false,
+      "countryCode": "US",
+      "platform": "web",
+      "psmEnvironment": "TEST",
+      "subBrand": "",
+    },
+    "name": "PrismJS",
+    "version": "0.0.0",
+  },
+  "platform": "web",
+  "session": Object {
+    "isSessionStart": false,
+    "pageloadid": 1,
+    "psmLastActiveTimestamp": "2024-01-01T09:09:09.000Z",
+    "psmSessionStart": "2024-01-01T09:09:09.000Z",
+    "sessionDuration": 0,
+    "sessionid": "00000000-0000-0000-0000-000000000000",
+  },
+  "ukid": undefined,
+}
+`;
+
+exports[`logger should error 1`] = `
+Object {
+  "brand": "Prism",
+  "device": {"type":""},
+  "eventName": "error",
+  "eventProperties": Object {
+    "featureFlagValues": Array [
+      Object {
+        "enabled": true,
+        "flagId": "consent-update",
+        "flagName": "consent-update",
+      },
+      Object {
+        "enabled": false,
+        "flagId": "inbrain",
+        "flagName": "inbrain",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "heartbeat-event",
+        "flagName": "heartbeat-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "pubsub-event",
+        "flagName": "pubsub-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "outside-us-location-check",
+        "flagName": "outside-us-location-check",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-onstart",
+        "flagName": "identity-onstart",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-oncomplete",
+        "flagName": "identity-oncomplete",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "idresolve",
+        "flagName": "idresolve",
+      },
+    ],
+    "logMessage": "[object Object]",
+    "method": "testMethod",
+    "stackTrace": "heres our stack",
+  },
+  "eventTimestamp": "2024-01-01T09:09:09.000Z",
+  "eventType": "log",
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "cookieExpires": 31536000000,
+      "cookieSameSite": "Lax",
+      "cookieSecure": false,
+      "countryCode": "US",
+      "platform": "web",
+      "psmEnvironment": "TEST",
+      "subBrand": "",
+    },
+    "name": "PrismJS",
+    "version": "0.0.0",
+  },
+  "platform": "web",
+  "session": Object {
+    "isSessionStart": false,
+    "pageloadid": 1,
+    "psmLastActiveTimestamp": "2024-01-01T09:09:09.000Z",
+    "psmSessionStart": "2024-01-01T09:09:09.000Z",
+    "sessionDuration": 0,
+    "sessionid": "00000000-0000-0000-0000-000000000000",
+  },
+  "ukid": undefined,
+}
+`;
+
+exports[`logger should log 1`] = `
+Object {
+  "brand": "Prism",
+  "device": {"type":""},
+  "eventName": "test",
+  "eventProperties": Object {
+    "featureFlagValues": Array [
+      Object {
+        "enabled": true,
+        "flagId": "consent-update",
+        "flagName": "consent-update",
+      },
+      Object {
+        "enabled": false,
+        "flagId": "inbrain",
+        "flagName": "inbrain",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "heartbeat-event",
+        "flagName": "heartbeat-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "pubsub-event",
+        "flagName": "pubsub-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "outside-us-location-check",
+        "flagName": "outside-us-location-check",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-onstart",
+        "flagName": "identity-onstart",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-oncomplete",
+        "flagName": "identity-oncomplete",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "idresolve",
+        "flagName": "idresolve",
+      },
+    ],
+    "logMessage": "[object Object]",
+    "method": "testMethod",
+    "stackTrace": "heres our stack",
+  },
+  "eventTimestamp": "2024-01-01T09:09:09.000Z",
+  "eventType": "log",
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "cookieExpires": 31536000000,
+      "cookieSameSite": "Lax",
+      "cookieSecure": false,
+      "countryCode": "US",
+      "platform": "web",
+      "psmEnvironment": "TEST",
+      "subBrand": "",
+    },
+    "name": "PrismJS",
+    "version": "0.0.0",
+  },
+  "platform": "web",
+  "session": Object {
+    "isSessionStart": false,
+    "pageloadid": 1,
+    "psmLastActiveTimestamp": "2024-01-01T09:09:09.000Z",
+    "psmSessionStart": "2024-01-01T09:09:09.000Z",
+    "sessionDuration": 0,
+    "sessionid": "00000000-0000-0000-0000-000000000000",
+  },
+  "ukid": undefined,
+}
+`;
+
+exports[`logger should warn 1`] = `
+Object {
+  "brand": "Prism",
+  "device": {"type":""},
+  "eventName": "warn",
+  "eventProperties": Object {
+    "featureFlagValues": Array [
+      Object {
+        "enabled": true,
+        "flagId": "consent-update",
+        "flagName": "consent-update",
+      },
+      Object {
+        "enabled": false,
+        "flagId": "inbrain",
+        "flagName": "inbrain",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "heartbeat-event",
+        "flagName": "heartbeat-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "pubsub-event",
+        "flagName": "pubsub-event",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "outside-us-location-check",
+        "flagName": "outside-us-location-check",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-onstart",
+        "flagName": "identity-onstart",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "identity-oncomplete",
+        "flagName": "identity-oncomplete",
+      },
+      Object {
+        "enabled": true,
+        "flagId": "idresolve",
+        "flagName": "idresolve",
+      },
+    ],
+    "logMessage": "[object Object]",
+    "method": "testMethod",
+    "stackTrace": "heres our stack",
+  },
+  "eventTimestamp": "2024-01-01T09:09:09.000Z",
+  "eventType": "log",
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "cookieExpires": 31536000000,
+      "cookieSameSite": "Lax",
+      "cookieSecure": false,
+      "countryCode": "US",
+      "platform": "web",
+      "psmEnvironment": "TEST",
+      "subBrand": "",
+    },
+    "name": "PrismJS",
+    "version": "0.0.0",
+  },
+  "platform": "web",
+  "session": Object {
+    "isSessionStart": false,
+    "pageloadid": 1,
+    "psmLastActiveTimestamp": "2024-01-01T09:09:09.000Z",
+    "psmSessionStart": "2024-01-01T09:09:09.000Z",
+    "sessionDuration": 0,
+    "sessionid": "00000000-0000-0000-0000-000000000000",
+  },
+  "ukid": undefined,
+}
+`;

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hydratePayload() should add all expected fields to a payload 1`] = `
+Object {
+  "adsProperties": Object {
+    "ads": Array [],
+  },
+  "brand": "Prism",
+  "companyName": "Prism",
+  "consentProperties": Object {
+    "consentRule": "Other",
+  },
+  "contentMetadata": Object {
+    "page": Object {},
+    "video": Object {},
+  },
+  "device": {"type":"","totalWidth":0,"totalHeight":0,"screenResolution":"0x0","viewportSize":"1024x768"},
+  "eventId": "00000000-0000-0000-0000-000000000000",
+  "eventName": "identity test",
+  "eventProperties": Object {
+    "automatedTest": false,
+    "cookies": Object {},
+    "cookiesEnabled": true,
+    "doNotTrack": false,
+    "featureFlagValues": Object {},
+    "heartbeat": Object {
+      "currentScrollPosition": 0,
+      "didScrollUpDuringInterval": false,
+      "engagedTime": 0,
+      "interval": 30,
+      "maxScrollDepth": 0,
+      "totalTime": 0,
+    },
+    "optimizelyFlagValues": Object {
+      "optimizelyInBrainEnabled": false,
+      "optimizelyInControlOfInBrain": false,
+    },
+  },
+  "eventTimestamp": "2020-12-01T00:00:00.000Z",
+  "eventType": "identity",
+  "iabConsentCategories": Object {},
+  "ids": Object {
+    "csid": "Unknown",
+  },
+  "library": Object {
+    "initConfig": Object {
+      "brand": "Prism",
+      "cookieDomain": ".psm.test",
+      "psmEnvironment": "TEST",
+      "subBrand": "Prism-Test",
+    },
+    "name": "PrismJS",
+    "version": "0.0.0",
+  },
+  "location": Object {
+    "country": "",
+    "language": "en",
+    "locale": "en-US",
+    "state": "",
+    "timezone": "UTC",
+  },
+  "navigationProperties": Object {
+    "path": "/",
+    "referrer": "",
+    "rootDomain": "",
+    "search": "",
+    "title": "",
+    "url": "http://localhost/",
+  },
+  "subBrand": "Prism-Test",
+  "ukid": "00000000-0000-0000-0000-000000000000",
+}
+`;

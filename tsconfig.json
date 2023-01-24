@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"],
+    "target": "ES2015",
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [".", ".eslintrc.js"],
+  "exclude": ["dist", "node_modules"]
+}
