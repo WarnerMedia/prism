@@ -207,3 +207,7 @@ Prism is a web SDK that captures user data and generates IDs for user tracking. 
 
 Copyright (c) Warner Media, LLC. All rights reserved. Licensed under the MIT license.
 See the [LICENSE](./LICENSE) file for license information.
+
+## CLA Assistant Change
+
+Testing the CLA Assistant to make sure it is working.
